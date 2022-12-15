@@ -1,5 +1,6 @@
 import express from 'express';
 import bodyParser from "body-parser";
+import cors from 'cors';
 import redis from 'redis';
 import { createClient } from 'redis';
 import database from './databsepg.js';
